@@ -6,7 +6,7 @@ import { ArrowDown } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section id="about" className="min-h-screen flex flex-col justify-center items-center px-4 relative overflow-hidden">
+    <section id="home" className="min-h-screen flex flex-col justify-center items-center px-4 relative overflow-hidden">
       {/* Ambient background glows */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-orange/20 rounded-full blur-[120px] mix-blend-screen animate-blob -z-10" />
       <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-primary-purple/20 rounded-full blur-[120px] mix-blend-screen animate-blob animation-delay-2000 -z-10" />
@@ -61,16 +61,7 @@ export default function HeroSection() {
         </motion.div>
       </div>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-10 animate-bounce"
-      >
-        <a href="#tech-stack" className="text-gray-500 hover:text-white transition-colors">
-          <ArrowDown size={32} />
-        </a>
-      </motion.div>
+
     </section>
   );
 }
