@@ -4,17 +4,11 @@ A high-performance, minimalist personal portfolio website built with modern web 
 
 ## 🚀 Tech Stack
 
-- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Framework:** [Next.js](https://nextjs.org/) 
 - **Language:** [TypeScript](https://www.typescriptlang.org/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Animations:** [Framer Motion](https://www.framer.com/motion/)
 - **Icons:** [Lucide React](https://lucide.dev/)
-
-## 🎨 Design System
-
-- **Theme:** Premium Dark Mode
-- **Layout:** Bento Box UI & Glassmorphism
-- **Highlights:** Floating Capsule Navbar, 3D Project Cards, Ambient Background Glows
 
 ## ⚙️ Getting Started
 
@@ -44,10 +38,4 @@ First, ensure you have Node.js installed on your machine. Then, follow these ste
 - `src/data/`: Mock data schema for data-driven UI (`portfolioData.ts`)
 - `public/images/`: Static assets (Logos, Project Images)
 
-## 👤 Author
 
-**Thanakron**
-- GitHub: [@Toeygenx](https://github.com/Toeygenx)
-
----
-*Designed with ♥ and Coffee.*
