@@ -9,6 +9,17 @@ export default function ContactSection() {
     <section id="contact" className="py-32 px-4 relative z-10">
       <div className="max-w-5xl mx-auto text-center">
         <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mb-12"
+        >
+          <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-500 mb-4 tracking-tight">Contact</h2>
+          <div className="w-16 h-1 bg-gradient-to-r from-primary-orange to-primary-purple mx-auto rounded-full"></div>
+        </motion.div>
+
+        <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}

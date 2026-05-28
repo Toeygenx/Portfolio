@@ -14,12 +14,13 @@ export default function EducationSection() {
           transition={{ duration: 0.6 }}
           className="flex flex-col items-center"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-500 mb-12 tracking-tight">Education</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-500 mb-4 tracking-tight">Education</h2>
+          <div className="w-16 h-1 bg-gradient-to-r from-primary-orange to-primary-purple mx-auto rounded-full mb-12"></div>
 
           <div className="bg-surface-light/30 backdrop-blur-md p-8 md:p-10 rounded-3xl border border-white/10 shadow-2xl w-full max-w-3xl relative overflow-hidden group flex flex-col md:flex-row items-center gap-8 md:gap-12 hover:border-white/20 transition-all duration-300">
             {/* Glow effect on hover */}
             <div className="absolute inset-0 bg-gradient-to-r from-primary-orange/10 to-primary-purple/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-2xl"></div>
-            
+
             <div className="w-32 h-32 md:w-40 md:h-40 flex-shrink-0 relative bg-white/5 rounded-2xl flex items-center justify-center p-4 border border-white/10 shadow-inner z-10">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
