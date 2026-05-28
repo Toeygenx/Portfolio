@@ -6,7 +6,7 @@ export const personalInfo = {
     university: "Kasetsart University",
     degree: "Bachelor of Engineering in Computer Engineering",
     graduationYear: 2026,
-    logoPath: "/images/ku-logo.png", // Will be in public/images
+    logoPath: "/images/KU_Logo.png",
   },
 };
 
@@ -37,26 +37,26 @@ export const techStack = {
 export const projects = [
   {
     id: 1,
-    title: "AI RAG System",
-    description: "Built a sophisticated RAG pipeline to answer complex queries from large document sets. Focused on optimizing vector search and improving the generation quality.",
-    techStack: ["Python", "FastAPI", "LlamaIndex", "Docker"],
-    imagePath: "/images/project-1.jpg",
-    link: "https://github.com/",
+    title: "Course Recommendation Chatbot",
+    description: "Built a full-stack RAG chatbot to centralize course data, achieving an 86.6% hit rate. Leveraged LlamaIndex, ChromaDB, and LLM query expansion to enhance search precision and reduce API costs.",
+    techStack: ["React", "FastAPI", "Docker", "LlamaIndex", "ChromaDB", "PostgreSQL", "Tailwind CSS"],
+    imagePath: "/images/recomendation_chatbot.png",
+    link: "https://recomendation-chatbot-with-rag.vercel.app/",
   },
   {
     id: 2,
-    title: "Task Management API",
-    description: "Developed a robust backend API for managing tasks with user authentication, role-based access control, and efficient database indexing.",
-    techStack: ["TypeScript", "Node.js", "Express.js", "PostgreSQL"],
-    imagePath: "/images/project-2.jpg",
-    link: "https://github.com/",
+    title: "Real-time Chat Application",
+    description: "Developed a full-stack chat application featuring secure JWT authentication and real-time messaging via Socket.IO. Integrated Cloudinary for media uploads and built a responsive UI using Tailwind CSS and Zustand.",
+    techStack: ["React", "Express", "MongoDB", "Socket.IO", "Cloudinary", "Tailwind CSS"],
+    imagePath: "/images/chat_app.png",
+    link: "https://chat-app-ljc8.onrender.com/",
   },
   {
     id: 3,
-    title: "Minimalist E-Commerce",
-    description: "Created a minimalist, high-performance e-commerce frontend. Implemented smooth animations and a fully responsive design system.",
-    techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-    imagePath: "/images/project-3.jpg",
-    link: "https://github.com/",
+    title: "Crowdfunding Platform",
+    description: "Developed the frontend for a platform connecting innovators with investors. Built reusable UI components like interactive charts and integrated RESTful APIs for real-time data visualization.",
+    techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "REST API"],
+    imagePath: "/images/crowdfunding.png",
+    link: "https://shark-wow.vercel.app/",
   }
 ];
