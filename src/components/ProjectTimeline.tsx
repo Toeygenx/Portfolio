@@ -43,7 +43,7 @@ export default function ProjectTimeline() {
                     style={{ perspective: 1000 }}
                   >
                     <div className="bg-surface-light/30 backdrop-blur-md rounded-3xl border border-white/10 w-full hover:border-primary-orange/50 transition-all duration-500 group text-left overflow-hidden shadow-2xl hover:shadow-[0_0_40px_rgba(255,95,21,0.15)] relative">
-                      
+
                       {/* Edge-to-edge Image */}
                       <div className="relative w-full h-56 sm:h-72 overflow-hidden bg-black/50">
                         <div className="absolute inset-0 bg-gradient-to-t from-surface-light/90 to-transparent z-10"></div>
@@ -59,12 +59,12 @@ export default function ProjectTimeline() {
                         {/* Title floating on image */}
                         <h3 className="absolute bottom-4 left-6 z-20 text-3xl font-black text-white">{project.title}</h3>
                       </div>
-                      
+
                       <div className="p-6 md:p-8 relative z-20 bg-surface-light/80 backdrop-blur-md">
                         <p className="text-gray-400 mb-6 leading-relaxed text-lg">
                           {project.description}
                         </p>
-                        
+
                         <div className="flex flex-wrap gap-2 mb-8 md:justify-start">
                           {project.techStack.map((tech) => (
                             <span key={tech} className="px-4 py-1.5 bg-white/5 border border-white/10 text-xs font-semibold text-gray-300 rounded-full tracking-wide">
@@ -72,7 +72,7 @@ export default function ProjectTimeline() {
                             </span>
                           ))}
                         </div>
-                        
+
                         <a
                           href={project.link}
                           target="_blank"
